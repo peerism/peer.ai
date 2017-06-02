@@ -1,0 +1,85 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+!**/*.xcodeproj
+!**/*.pbxproj
+!**/*.xcworkspacedata
+!**/*.xcsettings
+!**/*.xcscheme
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+.idea
+.gradle
+local.properties
+*.iml
+/PeerAI/android/
+/PeerAI/android/build/
+/PeerAI/build/
+
+# Node
+#
+/PeerAI/node_modules/
+npm-debug.log
+yarn-error.log
+*.log
+.nvm
+
+# Gradle
+#
+/PeerAI/build/
+/PeerAI/Examples/**/android/app/build/
+/PeerAI/Examples/**/android/app/gradle/
+/PeerAI/Examples/**/android/app/gradlew
+/PeerAI/Examples/**/android/app/gradlew.bat
+/PeerAI/ReactAndroid/build/
+
+# Buck
+#
+/PeerAI/buck-out/
+\.buckd/
+*.keystore
+/PeerAI/ReactAndroid/src/main/jni/prebuilt/lib/armeabi-v7a/
+/PeerAI/ReactAndroid/src/main/jni/prebuilt/lib/x86/
+/PeerAI/ReactAndroid/src/main/gen
+
+# Test generated files
+#
+/PeerAI/ReactAndroid/src/androidTest/assets/AndroidTestBundle.js
+*.js.meta
+
+/PeerAI/coverage
+/PeerAI/third-party
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+/PeerAI/fastlane/report.xml
+/PeerAI/fastlane/Preview.html
+/PeerAI/fastlane/screenshots
+
+*.tmp/
