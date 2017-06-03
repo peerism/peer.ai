@@ -76,7 +76,7 @@
                 react-native run-ios
                 ```
 
-                ![alt tag](https://raw.githubusercontent.com/ltfschoen/peer.ai/master/screenshots/ios_boilerplate.png)
+                ![alt tag](https://raw.githubusercontent.com/ltfschoen/peer.ai/master/screenshots/demo_animated.gif)
 
         * Android
             * Install [Android Studio](https://developer.android.com/studio/index.html)
@@ -123,6 +123,10 @@
                     List of devices attached
                     emulator-5554	device
                     ```
+            * Delete previous build
+                ```
+                rm android/app/build/outputs/apk/app-debug.apk
+                ```
             * Run React Native app using the Emulator you have already booted up (within PeerAI root directory)
                 ```
                 react-native run-android --deviceId "emulator-5554"
@@ -132,13 +136,16 @@
 
     * Debugging
         * Common
+            * https://facebook.github.io/react-native/docs/debugging.html
             * Chrome Browser
                 ```
                 open http://localhost:8081/debugger-ui
                 ```
         * iOS
-            * Cmd+R to reload
-            * Cmd+D or shake for dev menu
+            * (CMD + Shift + K) Hardware > Connect Hardware Keyboard
+            * (CMD + D) In-App Developer Menu
+        * Android
+            * (CMD + M) In-App Developer Menu
 
 ## Chapter 3 - Troubleshooting <a id="chapter-3"></a>
 

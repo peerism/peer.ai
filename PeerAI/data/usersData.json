@@ -1,0 +1,35 @@
+[
+  {
+    "username": "ltfschoen",
+    "skills": [
+      {
+        "skill": "design",
+        "tokens": 17549
+      },
+      {
+        "skill": "3dprinting",
+        "tokens": 12423
+      },
+      {
+        "skill": "memes",
+        "tokens": 9826
+      },
+      {
+        "skill": "designthinking",
+        "tokens": 5729
+      },
+      {
+        "skill": "gif",
+        "tokens": 2831
+      },
+      {
+        "skill": "management",
+        "tokens": 248
+      },
+      {
+        "skill": "local",
+        "tokens": 27
+      }
+    ]
+  }
+]
